@@ -1,14 +1,13 @@
-# Chess Learning Engine Documentation
-
-## Overview
-The Chess Learning Engine is designed to help users improve their chess skills through interactive lessons, puzzles, and game analysis.
+# Comprehensive Chess Learning Engine Documentation
 
 ## Features
-- **Interactive Lessons**: Step-by-step guides on chess strategies and tactics.
-- **Puzzles**: A variety of chess puzzles to enhance problem-solving skills.
-- **Game Analysis**: Tools to analyze past games and learn from mistakes.
+- Interactive tutorials on various chess strategies.
+- Detailed analysis of user games.
+- Performance tracking over time.
+- Various modes: Beginner, Intermediate, and Advanced.
 
 ## Installation
+To install the Chess Learning Engine, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/ABDO10DZ/Humine.git
@@ -19,17 +18,24 @@ The Chess Learning Engine is designed to help users improve their chess skills t
    ```
 3. Install the required dependencies:
    ```bash
-   npm install
+   pip install -r requirements.txt
    ```
 
 ## Usage
-- To start the Chess Learning Engine:
-  ```bash
-  npm start
-  ```
+Run the application using the following command:
+```bash
+python main.py
+```
 
-## Contribution
-Contributions are welcome! Please feel free to submit a pull request.
+After launching, follow the on-screen instructions to start learning and improving your chess skills.
 
-## License
-This project is licensed under the MIT License.
+## Output Explanation
+The main output of the engine includes:
+- Suggested moves based on current board state.
+- Historical performance graphs to visualize progress.
+- Errors and suggestions in real-time while practicing.
+
+## Troubleshooting
+- If you face issues running the application, ensure all dependencies are correctly installed.
+- Check if your Python version is compatible (Python 3.8 or above).
+- For any bugs or feature requests, open an issue in the GitHub repository.
