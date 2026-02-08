@@ -2,6 +2,8 @@
 
 An intelligent chess analysis engine that combines reinforcement learning with tactical awareness to find optimal moves through simulation-based learning.
 
+<img height=400 width="400" src="IMG_20260208_184955.jpg">
+
 ## Overview
 
 Humine is a Python-based chess engine that learns from experience. Unlike traditional engines that rely solely on evaluation functions, Humine plays out thousands of simulated games against Stockfish, remembers what works, and improves its recommendations over time through persistent memory storage.
