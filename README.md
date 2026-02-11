@@ -1,6 +1,6 @@
 # 🏆 hugine - Advanced Chess Engine
 
-**Version:** 7.3 (Complete Fixed Edition)  
+**Version:** 7.3 (hugine Edition)  
 **Strength:** ~2100-2200 ELO (Expert/Master level)  
 **Language:** Python 3.8+  
 **License:** MIT
@@ -56,12 +56,12 @@ python-chess library
 
 ### Quick Install
 ```bash
-# Clone or download hugine_complete_fixed.py
+# Clone or download humine.py
 # Install dependencies
 pip install chess
 
 # Run the engine
-python hugine_complete_fixed.py --help
+python humine.py --help
 ```
 
 ---
@@ -70,7 +70,7 @@ python hugine_complete_fixed.py --help
 
 ### Basic Analysis
 ```bash
-python hugine_complete_fixed.py \
+python humine.py \
   --pos "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" \
   --as w \
   --depth 8 \
@@ -79,7 +79,7 @@ python hugine_complete_fixed.py \
 
 ### Analyze From FEN
 ```bash
-python hugine_complete_fixed.py \
+python humine.py \
   --pos "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3" \
   --as w \
   --depth 10
@@ -87,14 +87,14 @@ python hugine_complete_fixed.py \
 
 ### Load From PGN
 ```bash
-python hugine_complete_fixed.py \
+python humine.py \
   --pos game.pgn \
   --depth 8
 ```
 
 ### Evaluate Move Sequence
 ```bash
-python hugine_complete_fixed.py \
+python humine.py \
   --pos "FEN_STRING" \
   --as w \
   --move "e4,e5,Nf3,Nc6,Bb5" \
@@ -146,7 +146,7 @@ python hugine_complete_fixed.py \
 ### Example 1: Find Best Move
 
 ```bash
-python hugine_complete_fixed.py \
+python humine.py \
   --pos "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4" \
   --as w \
   --depth 10 \
@@ -164,7 +164,7 @@ Nodes searched: 1,234,567
 ### Example 2: Mate in 3 Puzzle
 
 ```bash
-python hugine_complete_fixed.py \
+python humine.py \
   --pos "r1bqkb1r/pppp1Qpp/2n2n2/4p3/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 0 1" \
   --as b \
   --depth 6
@@ -180,7 +180,7 @@ Depth 6: Ng4 | Mate in 3 | PV: Ng4 Qxf7+ Kd8 ...
 ### Example 3: Passed Pawn Endgame
 
 ```bash
-python hugine_complete_fixed.py \
+python humine.py \
   --pos "8/ppb1Q3/1kp5/5B2/3P2p1/1PP2p2/PK6/5q1N b - - 8 46" \
   --as b \
   --depth 6 \
@@ -197,7 +197,7 @@ Depth 6: Qe2+ | +850cp | PV: Qe2+ Qxe2 Kxe2 f2 Kd2 f1=Q
 ### Example 4: Move Sequence Analysis
 
 ```bash
-python hugine_complete_fixed.py \
+python humine.py \
   --pos "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" \
   --as w \
   --move "e4,e5,Nf3,Nc6,Bb5" \
@@ -442,7 +442,7 @@ Contributions welcome! Areas for improvement:
 ### Understanding the Code:
 
 ```
-hugine_complete_fixed.py structure:
+humine.py structure:
 
 Lines 1-150:   Transposition Table
 Lines 151-400: Tactical Detection  
@@ -484,15 +484,15 @@ MIT License - Free to use, modify, and distribute
 
 - [ ] Install Python 3.8+
 - [ ] Install python-chess: `pip install chess`
-- [ ] Download hugine_complete_fixed.py
-- [ ] Test: `python hugine_complete_fixed.py --pos start --depth 6`
+- [ ] Download humine.py
+- [ ] Test: `python humine.py --pos start --depth 6`
 - [ ] Try your first puzzle!
 
 ---
 
 ## 📈 Version History
 
-**v7.3 (Current)** - Complete Fixed Edition
+**v7.3 (Current)** - hugine Edition
 - ✅ Fixed castling rights bug
 - ✅ Fixed mobility calculation
 - ✅ Fixed king safety
